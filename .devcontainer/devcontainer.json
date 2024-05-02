@@ -1,0 +1,11 @@
+{
+  "name": "Local Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": ["mongodb.mongodb-vscode", "ckolkman.vscode-postgres"]
+    }
+  }
+}
